@@ -32,6 +32,7 @@
 모듈러 계산의 성질을 이용했다.
 
 (A+B) MOD C = (A MOD C + B MOD C) MOD C
+
 (A*B) MOD C = (A MOD C * B MOD C) MOD C
 
 => 키 포인트는, 나눌 수는 있지만, 어떻게 나눌 것인가?
