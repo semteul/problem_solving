@@ -51,3 +51,7 @@
 
  <p>첫 번째 줄에 입력으로 주어진 문자열을 적절히 축약해 "UCPC"로 만들 수 있으면 "<code>I love UCPC</code>"를 출력하고, 만들 수 없으면 "<code>I hate UCPC</code>"를 출력한다.</p>
 
+### 풀이
+우선 대문자만 걸러준다.
+모양을 자세하게 보니 U, C, P, C 중간에 아무거나 와도 상관이 없다. 즉 UUCCPPCCCC나, UAAAAACBBBBBPCCCCC나 모두 UCPC를 만들 수 있다. 정규식으로 쉽게 만들 수 있다. U[A=Z]*C[A=Z]*P[A=Z]*C
+지금 생각해보니까 U.*C.*P.*C로 하면 대문자만 거를 필요 없이 그냥 할 수 있네...
