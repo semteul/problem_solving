@@ -1,0 +1,1 @@
+print("\x6B\x6D\x73"+chr(ord('1')+1)+chr(ord('7')+1)+chr(ord('3')+1)+chr(ord('6')-1))
